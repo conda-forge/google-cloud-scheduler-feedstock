@@ -1,5 +1,5 @@
 {% set name = "google-cloud-scheduler" %}
-{% set version = "2.19.0" %}
+{% set version = "2.20.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/google_cloud_scheduler-{{ version }}.tar.gz
-  sha256: 308abe5b485a47971e5cb77456a61f35dded710807c94b33482a33857dd0a41d
+  sha256: 17fee4b894e588587f76518185f20b6f7ddbce04ca91bbbb325ea995222d2b87
 
 build:
   noarch: python
